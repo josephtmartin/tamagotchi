@@ -1,8 +1,9 @@
 import '../styles/main.scss';
+import printQuadrants from './components/printQuadrants';
+import quadrants from './helpers/data/quadrants';
 
 const init = () => {
-  $('#app').html('<h1>HELLO! You are up and running!</h1>');
-  console.log('YOU ARE UP AND RUNNING!');
+  printQuadrants.displayQuadrants(quadrants.getQuadrants());
 };
 
 init();
