@@ -31,7 +31,7 @@ const playButtonEvents = () => {
 
 const playQuadrant = () => {
   const domString = `
-    <div class="card-container card-container">
+    <div class="card-container play-card-container">
         <h1 class="card-header">Play</h1>
         <div class="buttons">
             <button id="superFun">Super Fun</button>

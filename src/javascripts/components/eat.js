@@ -31,9 +31,9 @@ const eatButtonEvents = () => {
 
 const eatQuadrant = () => {
   const domString = `
-    <div class="card-container card-container">
+    <div class="card-container eat-card-container">
         <h1 class="card-header">Eat</h1>
-        <div class="buttons">
+        <div class="button-container">
             <button id="healthy">Healthy</button>
             <button id="unhealthy">Unhealthy</button>
         </div>

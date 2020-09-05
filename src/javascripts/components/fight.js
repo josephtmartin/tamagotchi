@@ -31,7 +31,7 @@ const fightButtonEvents = () => {
 
 const fightQuadrant = () => {
   const domString = `
-    <div class="card-container card-container">
+    <div class="card-container fight-card-container">
         <h1 class="card-header">Fight</h1>
         <div class="buttons">
             <button id="run">Running Away (Bravely)</button>

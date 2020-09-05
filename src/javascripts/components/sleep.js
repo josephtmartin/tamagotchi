@@ -31,7 +31,7 @@ const sleepButtonEvents = () => {
 
 const sleepQuadrant = () => {
   const domString = `
-    <div class="card-container card-container">
+    <div class="card-container sleep-card-container">
         <h1 class="card-header">Sleep</h1>
         <div class="buttons">
             <button id="nap">Nap</button>

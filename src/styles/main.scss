@@ -2,8 +2,21 @@
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
 body {
-  background-color: antiquewhite;
-  color: brown;
+  background-color: #c5ebfe;
+  color: black;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 25px;
 }
+
+#app {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.quad {
+  width: 50%;
+  text-align: center;
+}
+@import './globals/index.scss';
+
+@import "./components//index.scss";
