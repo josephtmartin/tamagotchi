@@ -1,9 +1,14 @@
 import '../styles/main.scss';
-import printQuadrants from './components/printQuadrants';
-import quadrants from './helpers/data/quadrants';
+import eat from './components/eat';
+import play from './components/play';
+import fight from './components/fight';
+import sleep from './components/sleep';
 
 const init = () => {
-  printQuadrants.displayQuadrants(quadrants.getQuadrants());
+  eat.eatQuadrant();
+  play.playQuadrant();
+  fight.fightQuadrant();
+  sleep.sleepQuadrant();
 };
 
 init();
