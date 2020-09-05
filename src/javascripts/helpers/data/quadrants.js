@@ -1,30 +1,19 @@
-const quadrants = [
-  {
-    name: 'eat',
-    score: 100,
-    button1: 'Healthy',
-    button2: 'Unhealthy',
-  },
-  {
-    name: 'play',
-    score: 50,
-    button1: 'Super Fun',
-    button2: 'Slightly Fun',
-  },
-  {
-    name: 'fight',
-    score: 100,
-    button1: 'Running Away (Bravely)',
-    button2: 'Commiting Violence',
-  },
-  {
-    name: 'sleep',
-    score: 50,
-    button1: 'Nap',
-    button2: 'Deep Slumber',
-  },
-];
+const eat = {
+  score: 100,
+};
 
-const getQuadrants = () => quadrants;
+const play = {
+  score: 50,
+};
 
-export default { getQuadrants };
+const fight = {
+  score: 100,
+};
+
+const sleep = {
+  score: 50,
+};
+
+export default {
+  eat, play, fight, sleep
+};
