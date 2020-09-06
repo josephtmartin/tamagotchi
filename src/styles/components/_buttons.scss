@@ -1,6 +1,8 @@
 button {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   padding: 5px 15px;
+  margin: 7px;
   font-size: 24px;
   cursor: pointer;
   text-align: center;
@@ -21,4 +23,9 @@ button:active {
   background-color: $grey;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

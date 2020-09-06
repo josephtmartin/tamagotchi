@@ -32,7 +32,7 @@ const playButtonEvents = () => {
 const playQuadrant = () => {
   const domString = `
     <div class="card-container play-card-container">
-        <h1 class="card-header">Play</h1>
+        <h2 class="card-header"><i class="fas fa-gamepad"></i></h2>
         <div class="buttons">
             <button id="superFun">Super Fun</button>
             <button id="slightlyFun">Slightly Fun</button>
