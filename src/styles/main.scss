@@ -1,22 +1,26 @@
-@import "~bootstrap/scss/bootstrap";
-@import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import '~bootstrap/scss/bootstrap';
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 body {
   background-color: #c5ebfe;
   color: black;
   text-align: center;
-  margin-top: 25px;
+  margin-top: 10px;
+  font-family: 'VT323', monospace;
 }
-
 #app {
   display: flex;
   flex-flow: row wrap;
 }
-
+#pet {
+  width: 100%;
+}
 .quad {
-  width: 50%;
+  width: 25%;
   text-align: center;
 }
+
 @import './globals/index.scss';
 
-@import "./components//index.scss";
+@import './components//index.scss';

@@ -32,7 +32,7 @@ const sleepButtonEvents = () => {
 const sleepQuadrant = () => {
   const domString = `
     <div class="card-container sleep-card-container">
-        <h1 class="card-header">Sleep</h1>
+        <h2 class="card-header"><i class="fas fa-bed"></i></h2>
         <div class="buttons">
             <button id="nap">Nap</button>
             <button id="deepSleep">Deep Sleep</button>

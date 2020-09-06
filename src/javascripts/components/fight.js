@@ -32,9 +32,9 @@ const fightButtonEvents = () => {
 const fightQuadrant = () => {
   const domString = `
     <div class="card-container fight-card-container">
-        <h1 class="card-header">Fight</h1>
+        <h2 class="card-header"><i class="fas fa-fist-raised"></i></h2>
         <div class="buttons">
-            <button id="run">Running Away (Bravely)</button>
+            <button id="run">Running Away</button>
             <button id="violence">Committing Violence</button>
         </div>
         <div class="score" id="strength">${strength}</div>
