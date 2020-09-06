@@ -11,7 +11,7 @@ This challenge was given to us to test our knowledge and skills with modularizin
 [![Netlify Status](https://api.netlify.com/api/v1/badges/70602c5b-1e26-465e-ba5c-16823592d32d/deploy-status)](https://app.netlify.com/sites/coughycat/deploys)
 
 ## Build Link
-[Coughy Cat Tamagotchi](https://coughycat.netlify.app/)
+### [Coughy Cat Tamagotchi](https://coughycat.netlify.app/)
 
 ## Tech Used
 * JavaScript ES6
